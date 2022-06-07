@@ -1,0 +1,23 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "numéro_mystère.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon generateur.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adrienbouchet974/Test-JavaScript.git"
+  },
+  "author": "Adrien Bouchet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adrienbouchet974/Test-JavaScript/issues"
+  },
+  "homepage": "https://github.com/Adrienbouchet974/Test-JavaScript#readme",
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
