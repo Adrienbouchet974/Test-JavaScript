@@ -9,13 +9,9 @@ const random_number = get_random_int(10);
 
 function generate_password(){
     for (let i = 0; i < 8; i++) {
-        if(characters[i]){
-            while (i != 8) {
-                console.log(`Votre mot de passe contient le caractère suivant : " ${characters[get_random_int(16)]} "`);
-                break;
-            }
-        }else{
-            console.log("error");
+        while (i != 8) {
+            console.log(`Votre mot de passe contient le caractère suivant : " ${characters[get_random_int(16)]} "`);
+            break;
         }
     }
     console.log("bien joué");
